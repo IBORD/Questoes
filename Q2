@@ -1,0 +1,23 @@
+public class Lampada {
+    String status;
+    Boolean economica;
+
+    void acende(){
+        status = "aceso";
+    }
+    void apagado(){
+        status = "apagada";
+    }
+
+    void mostrarStatus()  {
+        if (this.status == "aceso") {
+            System.out.println("lampada esta acesa");
+        }else System.out.println("a lamapada esta apagada");
+    }
+    void wats() {
+        if (this.economica == true ) {
+            System.out.println("economica");
+        }else System.out.println("nao e economica");
+    }
+
+}
